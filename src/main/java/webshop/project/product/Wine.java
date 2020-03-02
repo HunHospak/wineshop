@@ -1,4 +1,4 @@
-package webshop.project;
+package webshop.project.product;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

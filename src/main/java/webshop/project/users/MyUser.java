@@ -1,4 +1,4 @@
-package webshop.project;
+package webshop.project.users;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,7 +18,7 @@ public class MyUser {
 
   @Id
   @GeneratedValue (strategy = GenerationType.IDENTITY)
-  private long id;
+  private Long id;
   private String name;
   private String email;
   private String password;
